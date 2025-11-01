@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  scroll-behavior: smooth;
+  background-color: #fff;
+  color: #0A3D62;
+  font-family: 'Poppins', sans-serif;
+}
+
+section {
+  padding: 100px 0;
+}
+
+.sectionText{
+  background-image: linear-gradient(to left, #1f2937, #d1d5db);
+  background-size: 200% 100%; 
+  background-position: 0% 0%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  transition: background-position 0.3s ease;
+}
+
+html {
+  scroll-behavior: smooth;
+}
