@@ -10,6 +10,7 @@ import Testimonial from "./Components/Testimonial"
 import Contact from "./Components/Contact"
 import Footer from "./Components/Footer"
 import ContactSection from "./Components/ContactSection"
+import { Analytics } from "@vercel/analytics/next"
 
 
 
@@ -38,7 +39,7 @@ const App = () => {
       <Contact/> 
       <ContactSection/>
       <Footer/> 
-     
+      <Analytics />
     </div>
   );
 };

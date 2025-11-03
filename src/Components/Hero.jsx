@@ -87,7 +87,7 @@ export const Hero = () => {
         <p className="herop1 mt-4 max-w-xl text-md sm:text-xl text-gray-600">
 			Fast pickup, gentle cleaning, and same-day. we handle the dirt </p>
 		<p className="herop2 max-w-xl text-md sm:text-xl text-gray-600">so you can focus on what matters.</p>
-        <a href="" className="mb-4 herobtn mt-2 bg-accent text-white px-8 py-3 rounded-full font-semibold hover:bg-primary transition">Get in touch</a>
+        <a href="#contact" className="mb-4 herobtn mt-2 bg-accent text-white px-8 py-3 rounded-full font-semibold hover:bg-primary transition">Get in touch</a>
         <img
           src={HeroImage} className="w-[1000px] rounded-3xl shadow-lg"
           alt="Laundry"
